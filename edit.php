@@ -67,8 +67,8 @@ while($user_data = mysqli_fetch_array($result))
 			</tr>
 			<tr> 
 				<td>Jenis kelamin</td>
-				<td><input type="radio" name="jk_anggota" value="laki-laki" <?php if($jk=='L') echo 'checked'?>>laki-laki</td>
-				<td><input type="radio" name="jk_anggota" value="perempuan" <?php if($jk=='P') echo 'checked'?>>perempuan</td>
+				<td><input type="radio" name="jk_anggota" value="L" <?php if($jk=='L') echo 'checked'?>>laki-laki</td>
+				<td><input type="radio" name="jk_anggota" value="P" <?php if($jk=='P') echo 'checked'?>>perempuan</td>
 			</tr>
 			<tr> 
 				<td>Jurusan</td>
